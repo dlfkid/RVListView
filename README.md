@@ -34,7 +34,7 @@ Initial upload.
 Configure your pod file as follow:
 
 ````ruby
-pod `RVListView`, :git => https://github.com/dlfkid/RVListView.git, :tag => "1.0.0"
+pod 'RVListView', :git => "https://github.com/dlfkid/RVListView.git", :tag => "1.0.0"
 ````
 
 Run command in your command line:
