@@ -26,18 +26,17 @@ pod 'RVListView'
 
 1. **Flexible width for earch Cell**
 
-![pic1](/Users/ravendeng/Documents/Projects/RVListView/Pics/pic1.png)
+![pic1](Pics/pic1.png)
 
 2. **Support Left or right image icon**
 
-![pic2](/Users/ravendeng/Documents/Projects/RVListView/Pics/pic2.png)
+![pic2](Pics/pic2.png)
 
 3. **Unique properties for each cell**
 
-![pic3](/Users/ravendeng/Documents/Projects/RVListView/Pics/pic3.png)
+![pic3](Pics/pic3.png)
 
 ## Usage
-
 1. **Initalize** RVListView as any other common views:
 
 ````objc
