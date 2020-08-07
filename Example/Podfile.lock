@@ -1,0 +1,16 @@
+PODS:
+  - RVListView (0.1.0)
+
+DEPENDENCIES:
+  - RVListView (from `../`)
+
+EXTERNAL SOURCES:
+  RVListView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RVListView: 242aff3fad024dfd8022356fc76aa32afb501110
+
+PODFILE CHECKSUM: a89d2f5b5f84e1130220650b76904b2b4388e673
+
+COCOAPODS: 1.9.3

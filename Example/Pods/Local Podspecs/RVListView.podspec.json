@@ -1,0 +1,22 @@
+{
+  "name": "RVListView",
+  "version": "0.1.0",
+  "summary": "A short description of RVListView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ravendeng/RVListView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ravendeng": "ravendeng@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/ravendeng/RVListView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RVListView/Classes/**/*"
+}
