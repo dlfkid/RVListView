@@ -1,5 +1,5 @@
 PODS:
-  - RVListView (0.1.0)
+  - RVListView (1.0.1)
 
 DEPENDENCIES:
   - RVListView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RVListView: 242aff3fad024dfd8022356fc76aa32afb501110
+  RVListView: bc6c45675e23124ad69a7cd8c98c6be95b9212ab
 
 PODFILE CHECKSUM: a89d2f5b5f84e1130220650b76904b2b4388e673
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.2

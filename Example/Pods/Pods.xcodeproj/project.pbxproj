@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0572505765B5A2EEE38D14F3B662AD9C /* RVListCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 419AB151208FD1F26A5F595FF7F43488 /* RVListCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A5F89DAF6C2252703FFCEE249D450F5 /* RVListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA9D85CC5DEBA56FE2EB18E216654DF /* RVListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2292D1430CA74A2E1A9E73986C8FB919 /* RVListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DC62DFA915669F04A87079FDB1D24B /* RVListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		237B2876ED0323ED653831D522652C94 /* RVListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D48892DC621EB30DCFF839441C56FF3F /* RVListView.m */; };
-		31E91F59E522A61317C9FE9352C210C7 /* RVListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1520F63328FDA88CFB76D25ED946D8 /* RVListCollectionViewCell.m */; };
-		3C31B2BC399FC600315979F2139A68CA /* RVListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E283D8F3A212CBDF725231C73EB810BC /* RVListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DC75C0376201B39DC10971ACDF34CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		648A9C88C1CF3762ECE63AE7353BD6B0 /* Pods-RVListView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2EDC56DEC6BF357D527CEA0ADFC605 /* Pods-RVListView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70F1FDEFA4C500B86283BE8FE51BC4BF /* Pods-RVListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB729EA00D64538D7E038BE41954189 /* Pods-RVListView_Tests-dummy.m */; };
-		82419363B93C350BCD93F552DADEEB9B /* Pods-RVListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF73DD850A3F290FA6A0139CBE4F37 /* Pods-RVListView_Example-dummy.m */; };
-		93FCE8BBCA227EF38D1C2384CE78A17C /* RVListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD35F20E9E5B510CA6E00E61FA89D4 /* RVListView-dummy.m */; };
-		CE0E9EB7E6A92C9D3C71D867B5EC0073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D37A479FC93FB62FE277F339F5FB73AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F89DD82986C740F01B3B7457C9D1902E /* RVListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ADC30FDF7C27733608C92A68CF8BF9 /* RVListViewModel.m */; };
-		FCEB349D1619584C91383B3D0C8D0928 /* Pods-RVListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C1C4CB1DE5852F2EEE1675163CA6FE /* Pods-RVListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0084FC90A7512DAC0F0D67BF63A8B79E /* RVListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDD35F20E9E5B510CA6E00E61FA89D4 /* RVListView-dummy.m */; };
+		0454A6AEF0100E8BD8ACED13A935D90E /* Pods-RVListView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2EDC56DEC6BF357D527CEA0ADFC605 /* Pods-RVListView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08377DC8659FC00C85B71688EE47B4AE /* RVListViewModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DC62DFA915669F04A87079FDB1D24B /* RVListViewModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2091503F88B9FC8D3AC09BFD240A6063 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B1EAF5951311926D3D2AC46B9D5F99E /* RVListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA9D85CC5DEBA56FE2EB18E216654DF /* RVListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		428DC6715AE2A68DCA0B78487543500E /* Pods-RVListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AF73DD850A3F290FA6A0139CBE4F37 /* Pods-RVListView_Example-dummy.m */; };
+		674633E86CDED0897C0B189EDB8DCBD0 /* RVListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D48892DC621EB30DCFF839441C56FF3F /* RVListView.m */; };
+		752578CF835D698E55FDB690A5AD9010 /* Pods-RVListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB729EA00D64538D7E038BE41954189 /* Pods-RVListView_Tests-dummy.m */; };
+		95FB51F4D1C02713D18B439E1169F9FC /* Pods-RVListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C1C4CB1DE5852F2EEE1675163CA6FE /* Pods-RVListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96A658C19E1EB872DD32AD07DA858F11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A42EEF33086B841C405D6178D6B0B17E /* RVListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6ADC30FDF7C27733608C92A68CF8BF9 /* RVListViewModel.m */; };
+		B996AED3810A7C08D57A6286B34E9EC1 /* RVListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E283D8F3A212CBDF725231C73EB810BC /* RVListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D84B43446DDFA0C3816D2E1EDB597FB5 /* RVListCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 419AB151208FD1F26A5F595FF7F43488 /* RVListCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FDB24F8E001162B7DE1AD75AB23434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F97F18A793F20CEE038478A1787107FB /* RVListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1520F63328FDA88CFB76D25ED946D8 /* RVListCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4EEB6FF1FF83FEA44A6E03CDE6F96B22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7262436541EF253E34D3AB826E288602;
-			remoteInfo = "Pods-RVListView_Example";
-		};
-		99CD1429177F94ABAF5529D3A379CBD8 /* PBXContainerItemProxy */ = {
+		6CAE19F84AED02742246D6EA90DCE8B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A214DE0D33D2BDDD7CEE3D9CF6ED9A1F;
 			remoteInfo = RVListView;
 		};
+		DAF067C7C31BB1CB9E7EED8B7EF11CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7262436541EF253E34D3AB826E288602;
+			remoteInfo = "Pods-RVListView_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015C30F32AC839AD153E1CE8F2E20332 /* Pods_RVListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVListView_Example.framework; path = "Pods-RVListView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		015C30F32AC839AD153E1CE8F2E20332 /* Pods-RVListView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RVListView_Example"; path = Pods_RVListView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0883F76D9CDD21D08A258552C3C526F9 /* Pods-RVListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVListView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0CEB4319217B6B4B295144163C91AA18 /* Pods-RVListView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVListView_Example.modulemap"; sourceTree = "<group>"; };
 		0DA9D85CC5DEBA56FE2EB18E216654DF /* RVListView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVListView.h; path = RVListView/Classes/RVListView.h; sourceTree = "<group>"; };
@@ -50,7 +50,6 @@
 		1CDA67EF959C34497C9ECAFF792E8A74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		226EB33DD4559250666981829BCB79B3 /* Pods-RVListView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVListView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DCA14EE8613D51C646193BF385D1420 /* RVListView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RVListView-Info.plist"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		419AB151208FD1F26A5F595FF7F43488 /* RVListCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RVListCollectionViewCell.h; path = RVListView/Classes/RVListCollectionViewCell.h; sourceTree = "<group>"; };
 		4B4C65FEC39B302DFD9CE21541776223 /* RVListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RVListView.release.xcconfig; sourceTree = "<group>"; };
 		4E8C9D5ECE918A1DD20675074C097708 /* Pods-RVListView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RVListView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		6C1520F63328FDA88CFB76D25ED946D8 /* RVListCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RVListCollectionViewCell.m; path = RVListView/Classes/RVListCollectionViewCell.m; sourceTree = "<group>"; };
 		6EADB5EDE948A817E2B222D49130E64E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		70C05ACA08DBD3EE9CF36E4D18C9E2AC /* RVListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVListView-prefix.pch"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DC724DC002D54355CABF3E8A6FCB274 /* Pods-RVListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		87C1C4CB1DE5852F2EEE1675163CA6FE /* Pods-RVListView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RVListView_Example-umbrella.h"; sourceTree = "<group>"; };
 		8F0D8C8B6413109C801069F5C724B820 /* Pods-RVListView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RVListView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -77,39 +77,49 @@
 		DF2DADDBAC9ADB7214FD5D9D19621ED9 /* Pods-RVListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RVListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E283D8F3A212CBDF725231C73EB810BC /* RVListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RVListView-umbrella.h"; sourceTree = "<group>"; };
 		E3F31DAF3C4B21A9D5CD7BE2E18D6838 /* Pods-RVListView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVListView_Example-Info.plist"; sourceTree = "<group>"; };
-		E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods_RVListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RVListView_Tests.framework; path = "Pods-RVListView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB8F61F45B9422032B6A1B8A67261ABA /* RVListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVListView.framework; path = RVListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods-RVListView_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RVListView_Tests"; path = Pods_RVListView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8F61F45B9422032B6A1B8A67261ABA /* RVListView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RVListView; path = RVListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99700681534D28244630F7348DA66C9 /* Pods-RVListView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RVListView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EFB7541E59CA681602F7BD83818488F /* Frameworks */ = {
+		02BA6A1E369F79D6C4D6C665F95E5195 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE0E9EB7E6A92C9D3C71D867B5EC0073 /* Foundation.framework in Frameworks */,
+				F3FDB24F8E001162B7DE1AD75AB23434 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		25EE7EA124236D26DF2E9052C481084C /* Frameworks */ = {
+		0B1CC443505D4A79E94DCB7792B9D117 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DC75C0376201B39DC10971ACDF34CFD /* Foundation.framework in Frameworks */,
+				2091503F88B9FC8D3AC09BFD240A6063 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3708A61FEC9566F69E3A9C80F36E5FEE /* Frameworks */ = {
+		B0C87B5B5B8B56A4196E798AFCA63834 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D37A479FC93FB62FE277F339F5FB73AB /* Foundation.framework in Frameworks */,
+				96A658C19E1EB872DD32AD07DA858F11 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		319ADD4DB3378ACF274C87ABD132F9E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015C30F32AC839AD153E1CE8F2E20332 /* Pods-RVListView_Example */,
+				E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods-RVListView_Tests */,
+				EB8F61F45B9422032B6A1B8A67261ABA /* RVListView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		3D010904CDFE8A441E085690286CC3D8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +136,14 @@
 				FB4CA0C1CFA18A335314503FDD487AE1 /* RVListView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		689E14B08B83E9F4671DDA96149484B7 /* Targets Support Files */ = {
@@ -170,24 +188,6 @@
 			path = "Target Support Files/Pods-RVListView_Tests";
 			sourceTree = "<group>";
 		};
-		9FF2F787997EB35D68AC65C161948099 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				015C30F32AC839AD153E1CE8F2E20332 /* Pods_RVListView_Example.framework */,
-				E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods_RVListView_Tests.framework */,
-				EB8F61F45B9422032B6A1B8A67261ABA /* RVListView.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C703FCB6301FF31F8C5220177BB4CB80 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +209,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				52DCEBDC86F71478FC6F823C49956A2D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				9FF2F787997EB35D68AC65C161948099 /* Products */,
+				319ADD4DB3378ACF274C87ABD132F9E8 /* Products */,
 				689E14B08B83E9F4671DDA96149484B7 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -241,30 +241,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		370EED45D5E559DEF1DFD26B0328BAA2 /* Headers */ = {
+		380BCF6136D16DC802599C1E2E74F82D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0572505765B5A2EEE38D14F3B662AD9C /* RVListCollectionViewCell.h in Headers */,
-				3C31B2BC399FC600315979F2139A68CA /* RVListView-umbrella.h in Headers */,
-				1A5F89DAF6C2252703FFCEE249D450F5 /* RVListView.h in Headers */,
-				2292D1430CA74A2E1A9E73986C8FB919 /* RVListViewModel.h in Headers */,
+				95FB51F4D1C02713D18B439E1169F9FC /* Pods-RVListView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1899D3D9B6FD0E8F7BA10108D0D9A0D /* Headers */ = {
+		3B59A0DE4A01DDB6001ACEAFE07A6316 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCEB349D1619584C91383B3D0C8D0928 /* Pods-RVListView_Example-umbrella.h in Headers */,
+				D84B43446DDFA0C3816D2E1EDB597FB5 /* RVListCollectionViewCell.h in Headers */,
+				2B1EAF5951311926D3D2AC46B9D5F99E /* RVListView.h in Headers */,
+				B996AED3810A7C08D57A6286B34E9EC1 /* RVListView-umbrella.h in Headers */,
+				08377DC8659FC00C85B71688EE47B4AE /* RVListViewModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A19A14594CBB1459CD4D1B41686B6A08 /* Headers */ = {
+		59C6E0B2302AFB3B985E780088991548 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				648A9C88C1CF3762ECE63AE7353BD6B0 /* Pods-RVListView_Tests-umbrella.h in Headers */,
+				0454A6AEF0100E8BD8ACED13A935D90E /* Pods-RVListView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,50 +273,50 @@
 /* Begin PBXNativeTarget section */
 		25C92CBBC4A13101B0C155D6D78EF952 /* Pods-RVListView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A032F6C22229C49378384B1B2FE1724 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Tests" */;
+			buildConfigurationList = 8BA6057ADC6579CAB0C2692EF2E572ED /* Build configuration list for PBXNativeTarget "Pods-RVListView_Tests" */;
 			buildPhases = (
-				A19A14594CBB1459CD4D1B41686B6A08 /* Headers */,
-				28E117DA8AD1B32E181CB7FBBB70F444 /* Sources */,
-				25EE7EA124236D26DF2E9052C481084C /* Frameworks */,
-				EE8E97DCAB986FE003AB3275CCD8BA97 /* Resources */,
+				59C6E0B2302AFB3B985E780088991548 /* Headers */,
+				D5AAC5CB49F1158AB54D8B8E193E1DD9 /* Sources */,
+				0B1CC443505D4A79E94DCB7792B9D117 /* Frameworks */,
+				A32A999920EFBAFE96F8716DC48F8233 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B7BC73D5E3948870B8CE6C6B880A28CC /* PBXTargetDependency */,
+				F2F35B0287C5609285D3FB4B9468CC81 /* PBXTargetDependency */,
 			);
 			name = "Pods-RVListView_Tests";
-			productName = "Pods-RVListView_Tests";
-			productReference = E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods_RVListView_Tests.framework */;
+			productName = Pods_RVListView_Tests;
+			productReference = E92C970BEE69A7D435AA5E57B7ACB3C6 /* Pods-RVListView_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		7262436541EF253E34D3AB826E288602 /* Pods-RVListView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE0BA091757DCEBC9DE39F81E3ED5484 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Example" */;
+			buildConfigurationList = F69ACE8317FFD7EE069D27F7E0259E45 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Example" */;
 			buildPhases = (
-				A1899D3D9B6FD0E8F7BA10108D0D9A0D /* Headers */,
-				A0C86C6E1E795925E821DAF35766A633 /* Sources */,
-				0EFB7541E59CA681602F7BD83818488F /* Frameworks */,
-				4EFFE716C2F0088A390C3A525565FEB7 /* Resources */,
+				380BCF6136D16DC802599C1E2E74F82D /* Headers */,
+				0AC60D5EF9F25A6229A5284416C86ADD /* Sources */,
+				02BA6A1E369F79D6C4D6C665F95E5195 /* Frameworks */,
+				0301D13AF12DC6FB4FF47EB3CCB1DF49 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD9B711019A038D9567D0A4B476E28F3 /* PBXTargetDependency */,
+				C3A5C554D8E6AFBB31FA36198C11AE2F /* PBXTargetDependency */,
 			);
 			name = "Pods-RVListView_Example";
-			productName = "Pods-RVListView_Example";
-			productReference = 015C30F32AC839AD153E1CE8F2E20332 /* Pods_RVListView_Example.framework */;
+			productName = Pods_RVListView_Example;
+			productReference = 015C30F32AC839AD153E1CE8F2E20332 /* Pods-RVListView_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		A214DE0D33D2BDDD7CEE3D9CF6ED9A1F /* RVListView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5FB8C0DCDD2E904BABC6F73858DBEC5C /* Build configuration list for PBXNativeTarget "RVListView" */;
+			buildConfigurationList = 741A50DD8D373AA5B58674B462E7009F /* Build configuration list for PBXNativeTarget "RVListView" */;
 			buildPhases = (
-				370EED45D5E559DEF1DFD26B0328BAA2 /* Headers */,
-				063D515B75ED8D0863D3C4400AE37E30 /* Sources */,
-				3708A61FEC9566F69E3A9C80F36E5FEE /* Frameworks */,
-				6ACAD0BDBD40A938B6DE3E8ABFD3C517 /* Resources */,
+				3B59A0DE4A01DDB6001ACEAFE07A6316 /* Headers */,
+				552041A721AB8A81FCCC5D52921F10CA /* Sources */,
+				B0C87B5B5B8B56A4196E798AFCA63834 /* Frameworks */,
+				44BA2CC4121EA52DED7E920C37C6A394 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -324,7 +324,7 @@
 			);
 			name = RVListView;
 			productName = RVListView;
-			productReference = EB8F61F45B9422032B6A1B8A67261ABA /* RVListView.framework */;
+			productReference = EB8F61F45B9422032B6A1B8A67261ABA /* RVListView */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -333,19 +333,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9FF2F787997EB35D68AC65C161948099 /* Products */;
+			productRefGroup = 319ADD4DB3378ACF274C87ABD132F9E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -357,21 +357,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4EFFE716C2F0088A390C3A525565FEB7 /* Resources */ = {
+		0301D13AF12DC6FB4FF47EB3CCB1DF49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ACAD0BDBD40A938B6DE3E8ABFD3C517 /* Resources */ = {
+		44BA2CC4121EA52DED7E920C37C6A394 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE8E97DCAB986FE003AB3275CCD8BA97 /* Resources */ = {
+		A32A999920EFBAFE96F8716DC48F8233 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,91 +381,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		063D515B75ED8D0863D3C4400AE37E30 /* Sources */ = {
+		0AC60D5EF9F25A6229A5284416C86ADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31E91F59E522A61317C9FE9352C210C7 /* RVListCollectionViewCell.m in Sources */,
-				93FCE8BBCA227EF38D1C2384CE78A17C /* RVListView-dummy.m in Sources */,
-				237B2876ED0323ED653831D522652C94 /* RVListView.m in Sources */,
-				F89DD82986C740F01B3B7457C9D1902E /* RVListViewModel.m in Sources */,
+				428DC6715AE2A68DCA0B78487543500E /* Pods-RVListView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28E117DA8AD1B32E181CB7FBBB70F444 /* Sources */ = {
+		552041A721AB8A81FCCC5D52921F10CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70F1FDEFA4C500B86283BE8FE51BC4BF /* Pods-RVListView_Tests-dummy.m in Sources */,
+				F97F18A793F20CEE038478A1787107FB /* RVListCollectionViewCell.m in Sources */,
+				674633E86CDED0897C0B189EDB8DCBD0 /* RVListView.m in Sources */,
+				0084FC90A7512DAC0F0D67BF63A8B79E /* RVListView-dummy.m in Sources */,
+				A42EEF33086B841C405D6178D6B0B17E /* RVListViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0C86C6E1E795925E821DAF35766A633 /* Sources */ = {
+		D5AAC5CB49F1158AB54D8B8E193E1DD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82419363B93C350BCD93F552DADEEB9B /* Pods-RVListView_Example-dummy.m in Sources */,
+				752578CF835D698E55FDB690A5AD9010 /* Pods-RVListView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B7BC73D5E3948870B8CE6C6B880A28CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-RVListView_Example";
-			target = 7262436541EF253E34D3AB826E288602 /* Pods-RVListView_Example */;
-			targetProxy = 4EEB6FF1FF83FEA44A6E03CDE6F96B22 /* PBXContainerItemProxy */;
-		};
-		CD9B711019A038D9567D0A4B476E28F3 /* PBXTargetDependency */ = {
+		C3A5C554D8E6AFBB31FA36198C11AE2F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RVListView;
 			target = A214DE0D33D2BDDD7CEE3D9CF6ED9A1F /* RVListView */;
-			targetProxy = 99CD1429177F94ABAF5529D3A379CBD8 /* PBXContainerItemProxy */;
+			targetProxy = 6CAE19F84AED02742246D6EA90DCE8B3 /* PBXContainerItemProxy */;
+		};
+		F2F35B0287C5609285D3FB4B9468CC81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RVListView_Example";
+			target = 7262436541EF253E34D3AB826E288602 /* Pods-RVListView_Example */;
+			targetProxy = DAF067C7C31BB1CB9E7EED8B7EF11CAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02722A2422DDFA75FDBD353578492BB8 /* Release */ = {
+		3248733035F5D211AC8F748A00D12723 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0883F76D9CDD21D08A258552C3C526F9 /* Pods-RVListView_Example.release.xcconfig */;
+			baseConfigurationReference = DF2DADDBAC9ADB7214FD5D9D19621ED9 /* Pods-RVListView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		10E7540C827B11B858908EF90D153F8B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DC724DC002D54355CABF3E8A6FCB274 /* Pods-RVListView_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -488,79 +453,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		224A160851D720A83E0F9B005597367A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB8ABCD8B0348D1BE35D34899E9C92EE /* RVListView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RVListView/RVListView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RVListView/RVListView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RVListView/RVListView.modulemap";
-				PRODUCT_MODULE_NAME = RVListView;
-				PRODUCT_NAME = RVListView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2AA6E369284ADCEAC2B9E461944822F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5419DE736523E2255065676524333892 /* Pods-RVListView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		6D42DC62C4F2E194221DF89C48496C98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -583,6 +486,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -617,11 +521,75 @@
 			};
 			name = Release;
 		};
-		7A5299C816F2A552F2D00DDFE4025ABE /* Release */ = {
+		6DF4D423D0CE3CBA120F9ADABC9AB7F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B4C65FEC39B302DFD9CE21541776223 /* RVListView.release.xcconfig */;
+			baseConfigurationReference = 0883F76D9CDD21D08A258552C3C526F9 /* Pods-RVListView_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70E4FDB1189FCF78F8EA3B9BBF77BA5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5419DE736523E2255065676524333892 /* Pods-RVListView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Example/Pods-RVListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF0EBAAB23E1EA62ADF743398DEDF8F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB8ABCD8B0348D1BE35D34899E9C92EE /* RVListView.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -633,7 +601,69 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RVListView/RVListView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RVListView/RVListView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RVListView/RVListView.modulemap";
+				PRODUCT_MODULE_NAME = RVListView;
+				PRODUCT_NAME = RVListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B67A15D16CF53B058D0207C2637E3274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC724DC002D54355CABF3E8A6FCB274 /* Pods-RVListView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Tests/Pods-RVListView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Tests/Pods-RVListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B972F5FA118668638992256502BE5A06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B4C65FEC39B302DFD9CE21541776223 /* RVListView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RVListView/RVListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RVListView/RVListView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RVListView/RVListView.modulemap";
 				PRODUCT_MODULE_NAME = RVListView;
@@ -649,10 +679,11 @@
 			};
 			name = Release;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -675,6 +706,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -713,75 +745,41 @@
 			};
 			name = Debug;
 		};
-		9ABACDE2D7961A07280D245ED39D3457 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2DADDBAC9ADB7214FD5D9D19621ED9 /* Pods-RVListView_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RVListView_Tests/Pods-RVListView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RVListView_Tests/Pods-RVListView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				E4D0D44B090D4284607EBBC4E71A96C1 /* Debug */,
+				6D42DC62C4F2E194221DF89C48496C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FB8C0DCDD2E904BABC6F73858DBEC5C /* Build configuration list for PBXNativeTarget "RVListView" */ = {
+		741A50DD8D373AA5B58674B462E7009F /* Build configuration list for PBXNativeTarget "RVListView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				224A160851D720A83E0F9B005597367A /* Debug */,
-				7A5299C816F2A552F2D00DDFE4025ABE /* Release */,
+				AF0EBAAB23E1EA62ADF743398DEDF8F1 /* Debug */,
+				B972F5FA118668638992256502BE5A06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A032F6C22229C49378384B1B2FE1724 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Tests" */ = {
+		8BA6057ADC6579CAB0C2692EF2E572ED /* Build configuration list for PBXNativeTarget "Pods-RVListView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10E7540C827B11B858908EF90D153F8B /* Debug */,
-				9ABACDE2D7961A07280D245ED39D3457 /* Release */,
+				B67A15D16CF53B058D0207C2637E3274 /* Debug */,
+				3248733035F5D211AC8F748A00D12723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE0BA091757DCEBC9DE39F81E3ED5484 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Example" */ = {
+		F69ACE8317FFD7EE069D27F7E0259E45 /* Build configuration list for PBXNativeTarget "Pods-RVListView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AA6E369284ADCEAC2B9E461944822F7 /* Debug */,
-				02722A2422DDFA75FDBD353578492BB8 /* Release */,
+				70E4FDB1189FCF78F8EA3B9BBF77BA5C /* Debug */,
+				6DF4D423D0CE3CBA120F9ADABC9AB7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
