@@ -3,9 +3,9 @@
 A flexible collection view to show some data
 
 [![CI Status](https://img.shields.io/travis/com/dlfkid/RVListView/master?style=plastic)](https://travis-ci.com/github/dlfkid/RVListView)
-[![Version](https://img.shields.io/cocoapods/v/RVListView.svg?style=flat)](https://cocoapods.org/pods/RVListView)
-[![License](https://img.shields.io/cocoapods/l/RVListView.svg?style=flat)](https://cocoapods.org/pods/RVListView)
-[![Platform](https://img.shields.io/cocoapods/p/RVListView.svg?style=flat)](https://cocoapods.org/pods/RVListView)
+[![Version](https://img.shields.io/cocoapods/v/RVListView?style=plastic)](https://cocoapods.org/pods/RVListView)
+[![License](https://img.shields.io/cocoapods/l/RVListView?style=plastic)](https://cocoapods.org/pods/RVListView)
+[![Platform](https://img.shields.io/cocoapods/p/RVListView?style=plastic)](https://cocoapods.org/pods/RVListView)
 
 ## Requirements
 
