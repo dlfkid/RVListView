@@ -26,13 +26,6 @@ if [[ $BRANCH_NAME > 0 ]]; then
     git pull
 fi
 
-FINAL_SOURCE=https://github.com/CocoaPods/Specs.git
-CUSTOM_SOURCE_URL=$4
-if [ $CUSTOM_SOURCE_URL > 0 ]; then
-	echo "custom source is detected, use custom source as publish target instead."
-	FINAL_SOURCE = CUSTOM_SOURCE_URL
-fi
-
 RELEASE_SRCSPEC=./${FRAMEWORK_NAME}.podspec
 GIT_DIR=.
 echo "Update podspec version"
@@ -53,7 +46,7 @@ prepare() {
     git fetch --prune
 }
 
-addTag() {
+pushTag() {
     echo ">>>> PUSH TAGS $TAG_FORMATTED"
     git tag -a $TAG_FORMATTED -m "tag $TAG_FORMATTED"
     git push -q origin $TAG_FORMATTED
@@ -103,6 +96,19 @@ printPodErrorOutput() {
     fi
 }
 
+handleBackUpBranch() {
+    printPodErrorOutput "$1"
+    if [[ $? -ne 0 ]]; then
+        deleteTag
+        echo ">>>> Pod repo push failed, please confirm that user has the correct authority"
+        resetBack
+    else
+        mergeBack
+    fi
+
+    cleanUp
+}
+
 prepare
 
 if [[ $(git ls-remote -q -t --exit-code origin $TAG_REF) != "" ]]; then
@@ -121,29 +127,36 @@ else
         fi
     fi
 
+    GIT_CREDENTIAL_MANAGER_VERSION=$(git-credential-manager --version)
+
+    if [ GIT_CREDENTIAL_MANAGER_VERSION == 0 ] then
+        echo "Git credential manager not installed, see https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories"
+        exit 1
+    fi
+
+    echo "Using git credential manager $GIT_CREDENTIAL_MANAGER_VERSION"
+
     pushSpecCommit
     # deleteTag
-    addTag
-
+    pushTag
     if [ $? -ne 0 ]; then
         echo ">>>> script runs failed with error"
         exit 1
     fi
     echo ">>>> pod cache clean"
     pod cache clean --all
-    echo ">>>> pod repo add"
-    pod repo add tag_publish_source $CUSTOM_SOURCE_URL
-    echo ">>>> pod repo push"
-    PUSH_RET=$(COCOAPODS_VALIDATOR_SKIP_XCODEBUILD=1 pod repo push --allow-warnings --use-libraries --verbose tag_publish_source $RELEASE_SRCSPEC)
 
-    printPodErrorOutput "$PUSH_RET"
-    if [[ $? -ne 0 ]]; then
-        deleteTag
-        echo ">>>> Pod repo push failed, please confirm that user has the correct authority"
-        resetBack
+    CUSTOM_SOURCE_URL=$4
+    if [ $CUSTOM_SOURCE_URL > 0 ]; then
+        echo "custom source is detected, use custom source as publish target instead."
+        echo ">>>> pod repo add"
+        pod repo add tag_publish_source $CUSTOM_SOURCE_URL
+        echo ">>>> pod repo push"
+        PUSH_RET=$(COCOAPODS_VALIDATOR_SKIP_XCODEBUILD=1 pod repo push --allow-warnings --use-libraries --verbose tag_publish_source $RELEASE_SRCSPEC)
+        handleBackUpBranch "$PUSH_RET"
     else
-        mergeBack
+        echo "No custom source, pushing to cocoapods master repo"
+        PUSH_RET=$(pod trunk push --allow-warnings --use-libraries --verbose)
+        handleBackUpBranch "$PUSH_RET"
     fi
-
-    cleanUp
 fi
