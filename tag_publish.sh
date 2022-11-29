@@ -129,11 +129,12 @@ else
 
     GIT_CREDENTIAL_MANAGER_VERSION=$(git-credential-manager --version)
 
-    if [ GIT_CREDENTIAL_MANAGER_VERSION == 0 ] then
+    if [ GIT_CREDENTIAL_MANAGER_VERSION == 0 ]
+    then
         echo "Git credential manager not installed, see https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories"
         exit 1
     fi
-
+    
     echo "Using git credential manager $GIT_CREDENTIAL_MANAGER_VERSION"
 
     pushSpecCommit
