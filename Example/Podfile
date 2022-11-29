@@ -11,3 +11,16 @@ target 'RVListView_Example' do
     
   end
 end
+
+post_install do |installer|
+  installer.pods_project.build_configurations.each do |config|
+    # disable include framework warnings
+    config.build_settings['CLANG_WARN_STRICT_PROTOTYPES'] = 'YES'
+    config.build_settings['CLANG_WARN_DOCUMENTATION_COMMENTS'] = 'YES'
+    config.build_settings['CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER'] = 'YES'
+    # enable treat warnings as errors
+    config.build_settings['GCC_TREAT_WARNINGS_AS_ERRORS'] = 'YES'
+  end
+  # 绑定主仓库git hooks
+  system ("sh ../format_bootstrap.sh")
+end
